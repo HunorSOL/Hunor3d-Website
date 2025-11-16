@@ -17,6 +17,7 @@ body {
 
 .text {
   position: absolute;
+  text-align : center;
   top: 280px;
   left: 645px;
   font-size: 150px;
@@ -27,9 +28,10 @@ body {
 
 .picture {
   position: absolute;
+  text-align: center;
   top: 650px;
   left: 590px;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   z-index: 5;
 }
