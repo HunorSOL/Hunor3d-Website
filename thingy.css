@@ -5,33 +5,102 @@ body {
 
 .box {
   width: 2000px;
-  height: 460px;
+  height: 270px;
   background: linear-gradient(to bottom, lightblue, white);
   border: 2px solid #ffffff;
   position: absolute;
-  top: 0px;
+  top: -4px;
   left: -30px;
   right: -30px;
   bottom: 0px;
+  z-index: 10;
+  animation: box_smooth 1.5s;
 }
 
-.text {
+
+
+@keyframes box_smooth {
+  from {
+    opacity: 0;
+    height: 360px;
+  }
+
+  to {
+    opacity: 1;
+    height: 270px;
+  }
+}
+.Headline {
   position: absolute;
-  text-align : center;
   top: 280px;
-  left: 645px;
-  font-size: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 250px;
   font-weight: bold;
   color: #4e99f5;
-  z-index: 10;
+  z-index: 11;
+  animation: fadein_and_move 1.5s;
 }
 
-.picture {
+.image3 {
   position: absolute;
-  text-align: center;
-  top: 650px;
-  left: 590px;
-  width: 450px;
-  height: 450px;
-  z-index: 5;
+  top: 635px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 400px;
+  background-image: url('Screenshot_2025-11-14_at_21.19.47-removebg-preview-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 11;
+  animation: boat_moving 1.5s;
+}
+
+@keyframes fadein_and_move {
+  from {
+    
+    top: 325px;
+    opacity: 0;
+  }
+  to {
+    
+    top: 280px;
+    opacity: 1;
+  }
+}
+
+@keyframes boat_moving {
+  from {
+    transform : translateX(-300%);
+  }
+  to {
+    transform : translateX(-50%);
+  }
+}
+
+
+@keyframes water_disappearing {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+.image2 {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1560px;
+  height: auto;
+  z-index: 11;
+  animation: water_disappearing 4s;
 }
