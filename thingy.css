@@ -1,0 +1,35 @@
+body {
+  font-family: 'JetBrains Mono ', monospace;
+  background-color: white;
+}
+
+.box {
+  width: 2000px;
+  height: 460px;
+  background: linear-gradient(to bottom, lightblue, white);
+  border: 2px solid #ffffff;
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  right: -30px;
+  bottom: 0px;
+}
+
+.text {
+  position: absolute;
+  top: 280px;
+  left: 645px;
+  font-size: 150px;
+  font-weight: bold;
+  color: #4e99f5;
+  z-index: 10;
+}
+
+.picture {
+  position: absolute;
+  top: 650px;
+  left: 590px;
+  width: 350px;
+  height: 350px;
+  z-index: 5;
+}
