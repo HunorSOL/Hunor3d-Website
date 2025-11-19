@@ -1,0 +1,40 @@
+
+body {
+  font-family: jetbrains mono, monospace;
+  background-color: white;
+}
+
+
+.info2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 50px;
+  color: #1a8fe9;
+  z-index: 11;
+}
+.info3 {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  font-size: 50px;
+  color: #1a8fe9;
+  z-index: 11;
+}
+
+.info4 {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  font-size: 50px;
+  color: #1a8fe9;
+  z-index: 11;
+}
+.info5 {
+  position: absolute;
+  top: 600px;
+  left: 20px;
+  font-size: 50px;
+  color: #1a8fe9;
+  z-index: 11;
+}

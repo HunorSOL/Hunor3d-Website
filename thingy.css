@@ -4,7 +4,7 @@ body {
 }
 
 .box {
-  width: 2000px;
+  width: 20000px;
   height: 270px;
   background: linear-gradient(to bottom, lightblue, white);
   border: 2px solid #ffffff;
@@ -107,15 +107,27 @@ body {
 .info {
   position: absolute;
   top: 1200px;
-  left: 100px;
+  left: 50px;
   
-  font-size: 70px;
+  font-size: 50px;
   color: #1a8fe9;
   z-index: 11;
 }
 
 
-
+.info_button {
+  position: fixed;
+  top: 1259px;
+  left: 50px;
+  width: 150px;
+  height: 65px;
+  background-color: white;
+  border-color: rgb(0, 0, 0);
+  border-radius: 100px;
+  font-size: 50px;
+  color: rgb(84, 170, 245);
+  z-index: 11;
+}
 
 
 
@@ -133,3 +145,4 @@ body {
   color: #1a8fe9;
   z-index: 11;
 }
+
